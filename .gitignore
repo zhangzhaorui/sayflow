@@ -1,0 +1,8 @@
+# 编译产物
+.build/
+build/
+# librime 静态库和词库由 scripts/build-librime.sh、scripts/prepare-rime-data.sh 生成，不进仓库
+vendor/
+# macOS
+.DS_Store
+*.log
